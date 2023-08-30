@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    padding-top: 1rem;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 100px;
+    background-image:url(Img/Mar.JPG) ;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+nav ul {
+    background-color: gray;
+    width: auto;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: black;
+}
